@@ -1,0 +1,48 @@
+
+.gestor {
+    border: 3px solid rgb(212, 0, 0);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 17px;
+    font-size: 20px;
+    background-color: rgb(255, 41, 41);
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+.subordinados {
+    border: 3px solid blue;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(55, 180, 199);
+    font-size: 20px;
+    margin-bottom: 17px;
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 20px;
+    padding: 0px 0px 10px 0px;
+}
+.subordinados span {
+    font-size: 20px;
+}
+.analistas {
+    border: 3px solid blue;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 18px;
+    font-size: 20px;
+    background-color: rgb(55, 180, 199);
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 20px;
+}
