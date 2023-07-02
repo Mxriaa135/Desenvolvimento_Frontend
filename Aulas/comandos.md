@@ -3,4 +3,5 @@
 ### Comandos usados na aula
     - ng new nome-da-aplicação                   | cria um novo projeto angular
     - ng serve                                   | comando para executar a aplicação
-    - ng generate component views/novo-component | gera um novo component
+    - ng generate component views/novo-component | gera um novo component (ng g c nome)
+    - 
