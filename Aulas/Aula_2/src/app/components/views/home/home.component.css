@@ -1,0 +1,18 @@
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.animais {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  justify-content: center;
+  margin: 5px;
+}
+.animais p{
+  margin:5px;
+  font-size: 24px;
+}
