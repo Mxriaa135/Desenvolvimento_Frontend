@@ -1,0 +1,10 @@
+<div class="main">
+    <div class= "pilotos" *ngFor= "let piloto of pilotos">
+      <img src = {{piloto.imagem}} >
+      <p>Nome: {{ piloto.nome}}</p>
+      <p>Início de carreira: {{ piloto.inicioCarreira}}</p>
+      <p>Vitórias: {{ piloto.vitorias}}</p>
+      <p>Títulos: {{ piloto.titulos }}</p>
+      <p>Nome da Equipe: {{ piloto.nomeTeam }}</p>
+    </div>
+  </div>
