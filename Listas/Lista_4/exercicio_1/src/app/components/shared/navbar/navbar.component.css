@@ -1,7 +1,7 @@
 ul {
     display: flex;
     flex-direction: row;
-    background-color: rgb(255, 0, 0);
+    background-color: #0d00ff;
     display: flex;
     justify-content: center;
 }
@@ -16,8 +16,5 @@ a {
     cursor: pointer;
 }
 a:hover{
-    color: rgba(0, 0, 0, 0.586);
-}
-img {
-    width: 100px;
+    color: rgb(3, 15, 143);
 }

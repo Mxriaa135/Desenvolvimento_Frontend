@@ -13,8 +13,8 @@ export class ListagemAnimaisComponent implements OnInit {
   public animais!: Animal[]
 
     ngOnInit(): void {
-      this.animalService.buscarAnimais().subscribe((response) => {
-        this.animais = (response)
+      this.animalService.getAnimais().subscribe((response: Animal[]) => {
+        this.animais = response
       })
     }
 }

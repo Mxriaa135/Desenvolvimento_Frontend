@@ -1,0 +1,35 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(55, 180, 199);
+    border: 3px solid black;
+    color:rgb(55, 180, 199);
+    margin-top: 90px;
+    margin-right: 32%;
+    margin-left: 32%;
+    border-radius: 10px;
+}
+.form input, button {
+    width: 470px;
+    height: 35px;
+    margin-top: 10px;
+    border: 2px solid #EEE;
+    border-radius: 10px;
+    
+}
+.form button{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: #0d00ff;
+    color: rgb(3, 15, 143);
+    font-size: 15px;
+    transition: 0.3s;
+}
+.form button:hover{
+    color: white;
+    font-size: 20px;
+
+}

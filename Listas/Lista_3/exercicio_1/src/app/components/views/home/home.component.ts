@@ -12,7 +12,7 @@ export class HomeComponent {
   public pilotos: Piloto[] = new Array<Piloto>();
 
   constructor() {
-     this.pilotos.push(new Piloto("Max Verstappen", "Holandês" , "2015", 42, 3, "Red Bull", new URL ("https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/verstappen.jpg.img.640.medium.jpg/1677069646195.jpg")));
+     this.pilotos.push(new Piloto("Max Verstappen", "Holandês" , "2015", 42, 2, "Red Bull", new URL ("https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/verstappen.jpg.img.640.medium.jpg/1677069646195.jpg")));
      this.pilotos.push(new Piloto("Sérgio Perez", "Mexicano" , "2011", 6, 0, "Red Bull", new URL ("https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/perez.jpg.img.1536.high.jpg")));
      this.pilotos.push(new Piloto("Charles Leclerc", "Monegasco", "2018", 5, 0, "Scuderia Ferrari", new URL ("https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/leclerc.jpg.img.1536.high.jpg")));
      this.pilotos.push(new Piloto("Carlos Sainz", "Espanhol", "2015", 1, 0, "Scuderia Ferrari", new URL ("https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/sainz.jpg.img.1536.high.jpg")));

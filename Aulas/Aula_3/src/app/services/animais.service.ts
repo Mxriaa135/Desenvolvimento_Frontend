@@ -11,7 +11,7 @@ export class AnimalService {
 
     constructor(private http: HttpClient){}
 
-    getAnimais(): Observable<Animal[]> {
-        return this.http.get<Animal[]>("http://localhost:8050/listar-animais");
+    buscarAnimais(): Observable<any> {
+        return this.http.get<Animal[]>("http://localhost:8050/listar-animais")
     }
 }
