@@ -1,0 +1,38 @@
+.adicionar-animal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(55, 180, 199);
+    border: 3px solid black;
+    color:rgb(55, 180, 199);
+    margin-top: 90px;
+    margin-right: 450px;
+    margin-left: 450px;
+    border-radius: 10px;
+  }
+  .adicionar-animal p {
+    color: white;
+    font-size: 30px;
+  }
+  .adicionar-animal input, button {
+    width: 450px;
+    height: 35px;
+    margin-top: 10px;
+    border: 2px solid #EEE;
+    border-radius: 10px;
+    
+  }
+  .adicionar-animal button{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: #2a43c0;
+    color: rgb(3, 12, 143);
+    font-size: 15px;
+    transition: 0.3s;
+  }
+  .adicionar-animal button:hover{
+    color: white;
+    font-size: 20px;
+  }

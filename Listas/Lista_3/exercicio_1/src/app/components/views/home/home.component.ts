@@ -31,7 +31,7 @@ export class HomeComponent {
      this.pilotos.push(new Piloto("Niko Hülkenberg", "Alemão", "2010", 0, 0, "Hass", new URL ("https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/hulkenberg.jpg.img.1536.high.jpg")));
      this.pilotos.push(new Piloto("Kevin Magnussen", "Dinamarquês", "2014", 0, 0, "Hass", new URL ("https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/magnussen.jpg.img.1536.high.jpg")));
      this.pilotos.push(new Piloto("Yuki Tsunoda", "Japonês", "2021", 0, 0, "Alpha Tauri", new URL ("https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/tsunoda.jpg.img.1536.high.jpg")));
-     this.pilotos.push(new Piloto("Nick De Vries", "Neerlandês", "2022", 0, 0, "Alpha Tauri", new URL ("https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/devries.jpg.img.1536.high.jpg")));
+     this.pilotos.push(new Piloto("Daniel Ricciardo", "Australiano", "2011", 8, 0, "Alpha Tauri", new URL ("https://www.formula1.com/content/dam/fom-website/drivers/2023Drivers/ricciardo.jpg.img.1024.medium.jpg")));
      
     
 
