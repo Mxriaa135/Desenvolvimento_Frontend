@@ -1,13 +1,18 @@
-.adicionar-animal{
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.adicionar-animal {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(55, 180, 199);
     border: 3px solid black;
     color:rgb(55, 180, 199);
+    width: 550px;
     margin-top: 90px;
-    margin-right: 450px;
-    margin-left: 450px;
     border-radius: 10px;
   }
   .adicionar-animal p {
@@ -20,7 +25,7 @@
     margin-top: 10px;
     border: 2px solid #EEE;
     border-radius: 10px;
-    
+
   }
   .adicionar-animal button{
     margin-top: 30px;
