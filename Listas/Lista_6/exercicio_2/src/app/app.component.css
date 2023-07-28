@@ -1,0 +1,7 @@
+a {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}

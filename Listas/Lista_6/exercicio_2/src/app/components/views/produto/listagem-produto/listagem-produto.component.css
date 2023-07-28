@@ -1,0 +1,66 @@
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.produtos {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(102, 0, 255);
+    border-radius: 10px;
+    width: 250px;
+    margin: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    box-shadow:40px 40px 40px -31px rgba(0,0,0,0.84)
+}
+.produtos img {
+    background-color: white;
+    width: 200px;
+    border: 3px solid rgb(102, 0, 255);
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+.descricao {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.categoria {
+    text-align: center;
+}
+.produtos h1{
+    text-align: center;
+    margin:5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.produtos h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.produtos button{
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(102, 0, 255);
+    background-color: rgb(102, 0, 255);
+    color: white;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.produtos button:hover{
+    width: 120px;
+    font-size: 20px;
+}
