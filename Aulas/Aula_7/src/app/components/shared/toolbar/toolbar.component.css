@@ -1,0 +1,18 @@
+.links {
+  width: 100%;
+  height: 100%;
+  justify-content: end;
+  display: flex;
+  align-items: center;
+}
+.links a {
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+}
+.links a:hover {
+  text-decoration: underline;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
